@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body> 
+         <h1 class=" py-5 text-center" id="wellcom"></h1>
+    <div class="container page d-flex w-75 py-5 mx-auto text-center text-white">
+        <div class="row mx-auto d-flex signIn py-5 shadow-lg">
+            <h1>Smart Login System</h1>
+            <div class="item  py-2">
+                <input id="emailIn" type="email" placeholder="Enter your email" class="mx-auto form-control py-3 w-75">
+            </div>
+            <div class="item py-2">
+                <input id="passIn" type="password" placeholder="Enter your password"class="mx-auto form-control py-3 w-75">
+            </div>
+            <div class="item py-4 ">
+                <p class="text-danger mx-auto w-75 loginMessage d-none ">incorrect Email or password! try again </p>
+                <button id="btnLogin" class=" w-75 py-3" type="submit">Login</button>
+            </div>
+            <h4>Don't have an account? <span id="signUp" class="text-decoration-underline">Sign Up</span></h4>
+        </div>
+        <div class="row d-none  signUp  py-5 shadow-lg">
+           
+            <div class="item">
+                <h1>Smart Sign Up System</h1>
+            </div>
+            <div class="item py-2">
+                <input id="nameUp" type="text" placeholder="Enter your name" class="mx-auto  form-control py-3 w-75">
+                <p class="mx-auto w-75 nameMessage d-none text-danger">start with alphabitic , from 3 to 10 letter </p>
+            </div>
+            <div class="item py-2  ">
+                <input id="emailUp" type="email" placeholder="Enter your email" class="mx-auto form-control py-3 w-75">
+                <p class="mx-auto  w-75 emailMessage  d-none text-danger">x@gamil.com</p>
+            </div>
+            <div class="item py-2 ">
+                <input id="passUp" type="password" placeholder="Enter your password" class="mx-auto form-control py-3 w-75">
+                <p class="mx-auto w-75 passMessage d-none text-danger"> 8 to 20 letters and should have alphabitic </p>
+            </div>
+            <div class="item py-4  ">
+                <button id="btnSignUp" class=" w-75 py-3" type="submit">Sign Up</button>
+            </div>
+            <h4>Don't have an account? <span id="login" class="text-decoration-underline">Login</span></h4>
+          
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

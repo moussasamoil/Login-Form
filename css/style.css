@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(36,53,63,0.9);
+}
+.row,button{
+    background-color: rgb(36,53,63);  
+}
+button:hover{
+   background-color: rgb(31,99,114) ; 
+}
+h1,button{
+    color: rgb(96, 183, 202) ;
+}
+#signUp{
+    cursor: pointer;
+    
+}
+#login{
+    cursor: pointer;
+    
+}
